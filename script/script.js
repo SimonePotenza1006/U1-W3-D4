@@ -22,7 +22,7 @@ bottoneEstrazione.addEventListener("click", () =>{
     let numeroEstratto = Math.floor((Math.random()*90) + 1)
     let celle = document.querySelectorAll(".celle")
     celle.forEach(cella => {
-        if (Number(cella.innerText) === numeroEstratto) {
+        if (parseInt(cella.innerText) === numeroEstratto) {
             cella.classList.add("estratto")
         }
     })
