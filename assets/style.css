@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-color:#ed7d0c ;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif; ;
+    color: black;
+    
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background-image: url(Tombola-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.celle {
+    display: inline-block;
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    background-image: url(images.jpg);
+    font-family: 'Anton', sans-serif; ;
+    font-size: large;
+}
+
+
+#div-bottone {
+    text-align: center;
+    height: 80px;
+}
+
+#button-estrazione {
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Anton', sans-serif; ;
+    background-color: #BF100B;
+}
+
+#container-tabellone {
+    border: 2px solid black;
+}
+
+#tabellone {
+    margin-top: 15px;
+}
+
+.estratto {
+    color: #BF100B;
+}
