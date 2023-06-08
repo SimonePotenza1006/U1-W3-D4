@@ -30,6 +30,11 @@ main {
     background-image: url(images.jpg);
     font-family: 'Anton', sans-serif; ;
     font-size: large;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 
